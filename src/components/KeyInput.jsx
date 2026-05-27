@@ -95,11 +95,6 @@ export default function KeyInput({ value, onChange, onClear }) {
               키는 이 브라우저에만 저장되며, 네트워크 호출은 사용자 브라우저 → Google API
               로 직접 이뤄집니다 (앱 서버 경유 없음).
             </p>
-            <p>
-              공개 배포 시 Google Cloud Console 에서 키에{' '}
-              <span className="text-slate-300">HTTP referrer 제한</span>을 거는 것을
-              권장합니다.
-            </p>
           </div>
         </div>
       )}
