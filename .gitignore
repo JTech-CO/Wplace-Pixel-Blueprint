@@ -1,0 +1,17 @@
+node_modules
+dist
+dist-ssr
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+.vite
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.log
+
+# Claude Code local settings
+.claude/
+build.log
