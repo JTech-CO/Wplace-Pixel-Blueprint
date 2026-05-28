@@ -97,16 +97,6 @@ src/
 └── components/             # KeyInput / SettingsPanel / ImageUploader / BlueprintCanvas / PaletteLegend / ExportButtons
 ```
 
-## 알려진 이슈
-
-- **한글 경로에서 `npm run build` 크래시 (로컬 한정)**
-  현재 경로(`...\내 폴더\코딩\기획\Wplace Pixel Blueprint`)의 비-ASCII 문자가 일정
-  module 수(약 50+) 이상부터 Vite/Rollup native 바인딩의 버퍼 오버런(`0xC0000409
-  STATUS_STACK_BUFFER_OVERRUN`)을 유발합니다. `npm run dev` 와 `npm run test:run`
-  은 정상 동작합니다. **배포는 GitHub Actions(Ubuntu) 에서 빌드되므로 영향 없음**.
-  로컬에서도 빌드를 돌리려면 프로젝트를 ASCII 경로(예: `C:\code\Wplace-Pixel-Blueprint`)
-  로 이동하세요.
-
 ## 라이선스
 
-(작성 예정)
+MIT
