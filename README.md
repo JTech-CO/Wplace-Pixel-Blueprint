@@ -1,8 +1,10 @@
 # Wplace Pixel Blueprint
 
-**라이브: <https://jtech-co.github.io/Wplace-Pixel-Blueprint/>**
-
 사진을 2D 및 2.5D 도안으로 다시 만듭니다.
+
+**링크: <https://jtech-co.github.io/Wplace-Pixel-Blueprint/>**
+
+<img src="https://i.imgur.com/nV64jmq.png" width="100%">
 
 - **100% 클라이언트 사이드** — 백엔드·DB 없음. Gemini API 는 브라우저 → Google 로 직접.
 - **BYO Key** — 본인 Gemini API Key 를 입력해 구동. 키는 브라우저 localStorage 에만 저장.
@@ -34,7 +36,7 @@
 
 ```powershell
 npm install
-npm run dev          # http://localhost:5173/
+npm run dev          # http://localhost:[포트번호]/
 npm run test:run     # vitest (단위 테스트)
 npm run build        # dist/
 ```
